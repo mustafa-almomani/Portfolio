@@ -156,7 +156,6 @@ ul li {
 .Expertise ul li{
 
     list-style-type: none;
-    /* display: inline-block; */
 }
 .Expertise ul p{
     line-height: 5;
@@ -164,11 +163,13 @@ ul li {
     color: grey;
 }
 .sec4-Resume{
-    margin-bottom: 134px;
-    margin-top: 50px;
+   
+    margin-top: 10%;
     
 }
 .three-divs{
+    flex-wrap: wrap;
+    gap: 50px;
     display: flex;
     margin: auto;
     width: 90%;
@@ -407,7 +408,7 @@ ul li {
     /* .container-fluid{
         height: 125px;
     } */
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width:430px) {
         .icon{
             width: 100%;
         }
@@ -447,9 +448,6 @@ ul li {
         .resume-skllis{
             width: 100%;
             margin-top: 7px;
-        }
-        .sec4-Resume{
-            
         }
         .pic{
             flex-wrap: wrap;
